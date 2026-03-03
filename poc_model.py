@@ -124,7 +124,7 @@ def get_fertilizer_recommendation(predicted_yield):
 # ==========================================
 print("\n---  PoC Demonstration (Sample Input) ---")
 
-sample_input = [[20, 20, 20,6.5, 0]] 
+sample_input = [[20, 20, 20,6.5, 600]] 
 predicted_val = model.predict(sample_input)[0]
 
 print(f"Target District      : {target_district.upper()}")
